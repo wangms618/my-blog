@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,html{
+  height: 50px;
+}
+.header{
+  height: 50px;
+}
+.header-container{
+  display: flex;
+  height: 50px;
+  box-shadow: 0 1px 10px #e0e0e0;
+}
+.header-menu{
+  flex: 1;
+  display: flex;
+}
+.header-end{
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+.header-left{
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+.logo{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+}
+.logo img{
+  width: 200px;
+  height: 50px;
+  margin: auto;
+}
+.header-start{
+  width: 400px;
+  position: relative;
+  font-size: 18px; 
+}
+.header-item1,.header-item2{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+}
+.header-item1{
+  left: 0px;
+}
+.header-item2{
+  left: 100px;
+}
+.item1,.item2{
+  margin: auto;
+  color: #000;
+  text-decoration: none;
+}
+.header-signup,.header-signin{
+  position: absolute;
+  font-size: 12px;
+  width: 50px;
+  height: 32px;
+  display: flex;
+}
+.header-signin-button,.header-signup-button{
+  margin: auto;
+  text-decoration: none;
+}
+.header-signup{
+  top: 6px;
+  right: 40px;
+
+}
+.header-signin{
+  right: 150px;
+  top: 8px;
+  background: rgb(0,209,178);
+  border-radius: 6px;
+}
+.header-signup{
+  right: 80px;
+  box-sizing: border-box;
+  top: 8px;
+  border: solid #000 1px;
+  border-radius: 8px;
+}
+.header-signin-button{
+  color: #fff;
+}
+.header-signup-button{
+  color: #000;
+}
+.header-category,.header-write{
+  position: absolute;
+  font-size: 12px;
+  width: 50px;
+  height: 32px;
+  display: flex;
+  background: rgb(0,209,178);
+  border-radius: 6px;
+  top: 8px;
+}
+.header-category_link,.header-write_link{
+  margin: auto;
+  text-decoration: none;
+  color: #fff;
+}
+.header-category{
+  right: 350px;
+}
+.header-write{
+  right: 280px;
+}
+.header-user-name{
+  position: absolute;
+  font-size: 18px;
+  right: 140px;
+  display: flex;
+  height: 50px;
+  width: 100px;
+
+}
+.header-user-name a{
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+}
+.header-out{
+  position: absolute;
+  font-size: 18px;
+  right: 40px;
+  display: flex;
+  height: 50px;
+  width: 80px;
+}
+.header-out a{
+  margin: auto;
+  text-decoration: none;
+}
+.header-item1:hover,.header-item2:hover{
+  background: rgb(250, 250, 250);
+}
+.item1:hover,.item2:hover{
+  color: rgb(72, 95, 199);
+}
